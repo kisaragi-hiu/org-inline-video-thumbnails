@@ -1,0 +1,31 @@
+* org-inline-video-thumbnails
+
+Org has inline image support, but this doesn't extend to videos. I'd like to see a thumbnail of a video as an inline image.
+
+This library sets up =image= and =image-converter= so that that works.
+
+(While it’d be nice if we can play video files inline, I’m not going to think about how to achieve that in Emacs.)
+
+** Install
+
+#+BEGIN_SRC elisp
+(leaf org-inline-video-thumbnails
+  :require t
+  :straight (org-inline-video-thumbnails
+             :host github
+             :repo "kisaragi-hiu/org-inline-video-thumbnails"))
+#+END_SRC
+
+** Usage
+
+Add links to video files as usual.
+
+When you run =org-toggle-inline-images=, those video files will now also be turned into inline images.
+
+Clicking them will still open the video file.
+
+* License
+
+The Unlicense.
+
+There’s barely any code in here, only a few hours of figuring out how Org displays images.
