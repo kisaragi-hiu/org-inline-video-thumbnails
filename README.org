@@ -26,6 +26,6 @@ Clicking them will still open the video file.
 
 * License
 
-The Unlicense.
+CC0.
 
 There’s barely any code in here, only a few hours of figuring out how Org displays images.
