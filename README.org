@@ -4,6 +4,8 @@ Org has inline image support, but this doesn't extend to videos. I'd like to see
 
 This library sets up =image= and =image-converter= so that that works.
 
+(2.0) This also provides a new image converter using =ffmpegthumbnailer=, as otherwise Org grinds to a halt in buffers with even just a few video links.
+
 (While it’d be nice if we can play video files inline, I’m not going to think about how to achieve that in Emacs.)
 
 ** Install
